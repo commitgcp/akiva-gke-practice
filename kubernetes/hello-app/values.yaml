@@ -51,7 +51,7 @@ ingress:
     nginx.ingress.kubernetes.io/cors-expose-headers: "*, X-CustomResponseHeader"
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: "34.134.203.56.sslip.io"
+    - host: "34.171.41.64.sslip.io"
       paths:
         - path: "/"
           pathType: ImplementationSpecific
